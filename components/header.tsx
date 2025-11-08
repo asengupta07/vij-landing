@@ -27,7 +27,7 @@ export const Header = () => {
             </Link>
           ))}
         </nav>
-        <Link className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80" href="https://github.com/asengupta07/vij-admin" target="_blank" rel="noopener noreferrer">
+        <Link className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80" href="https://github.com/asengupta07/vij" target="_blank" rel="noopener noreferrer">
           GitHub
         </Link>
         <MobileMenu />
