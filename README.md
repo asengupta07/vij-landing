@@ -1,30 +1,35 @@
-# Archive
+# VIJ Landing
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Marketing site for VIJ — a lightweight, open‑source production error monitoring platform for modern JS/TS apps.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shared-8867s-projects/v0-archive)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/7OBKdWwIbzR)
+## What is VIJ?
+- **vij-sdk**: minimal, framework‑agnostic SDK for browser and Node.js. Captures errors, unhandled rejections, and custom logs with batching and rich metadata.
+- **vij-admin**: self‑hosted Next.js dashboard + ingestion API with charts, groups, and optional AI summaries.
 
-## Overview
+## Links
+- SDK (npm): https://www.npmjs.com/package/vij-sdk
+- Admin (GitHub): https://github.com/asengupta07/vij-admin
+- Docs: see `vij-admin` README
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Develop locally
+```bash
+npm install
+npm run dev
+# open http://localhost:3000
+```
 
-## Deployment
+## Build & start
+```bash
+npm run build
+npm run start
+```
 
-Your project is live at:
+## Deploy
+Deploy to any Node host (e.g., Vercel). No special env vars required for the landing site.
 
-**[https://vercel.com/shared-8867s-projects/v0-archive](https://vercel.com/shared-8867s-projects/v0-archive)**
+## Customize copy
+- Hero headline/CTA: `components/hero.tsx`
+- Header/nav links: `components/header.tsx` and `components/mobile-menu.tsx`
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/7OBKdWwIbzR](https://v0.app/chat/projects/7OBKdWwIbzR)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## License
+MIT
