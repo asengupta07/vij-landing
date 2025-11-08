@@ -6,7 +6,7 @@ export const Header = () => {
   const navItems = [
     { name: "SDK", href: "https://www.npmjs.com/package/vij-sdk" },
     { name: "Admin", href: "https://github.com/asengupta07/vij-admin" },
-    { name: "Docs", href: "https://github.com/asengupta07/vij-admin#readme" },
+    { name: "Docs", href: "https://vij.mintlify.app/" },
   ];
   return (
     <div className="fixed z-50 pt-8 md:pt-14 top-0 left-0 w-full">
